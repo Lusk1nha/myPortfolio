@@ -1,0 +1,22 @@
+@media (min-width: 500px) {
+  .infos {
+    max-width: 400px;
+
+  }
+
+  header h4 {
+    font-size: 35px;
+
+  }
+
+  header .my-name {
+    font-size: 36px;
+
+  }
+
+  header .working {
+    font-size: 30px;
+
+  }
+  
+}

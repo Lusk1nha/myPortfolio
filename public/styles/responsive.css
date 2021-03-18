@@ -1,4 +1,31 @@
-@media (min-width: 490px) {
+@media (min-width: 505px) {
+  #navbar {
+    display: block;
+
+    padding: 0 10%;
+    
+  }
+
+  .right-nav {
+    width: auto;
+
+  }
+
+  #navbar .nav-top,
+  #navbar .nav-projects,
+  #navbar .nav-contacts {
+    width: 100px;
+    height: 100%;
+    font-size: 18px;
+
+  }
+
+  #navbar .nav-top {
+    font-size: 25px;
+    float: left;
+
+  }
+
   .infos {
     max-width: 400px;
 
@@ -18,5 +45,65 @@
     font-size: 30px;
 
   }
+
+  main {
+    height: 2100px;
+
+  }
+
+  main h1 {
+    margin-bottom: 70px;
+
+  }
+
+  .projects {
+    max-width: 1000px;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+
+  }
+
+  .project {
+    height: 400px; 
+    margin-bottom: 20px;
+
+  }
+
+  .project-name {
+    font-size: 25px;
+
+  }
+
+  footer .email {
+    font-size: 25px;
+
+  }
+
+  footer .download-resume {
+    font-size: 1.25em;
+
+  }
   
+}
+
+@media (min-width: 1200px) {
+  main {
+    height: 1650px;
+
+  }
+
+  .projects {
+    max-width: 1200px;
+
+    grid-template-columns: auto auto auto;
+
+  }
+
+  .project-image {
+    max-width: 300px;
+
+  }
+
 }

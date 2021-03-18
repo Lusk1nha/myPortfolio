@@ -47,7 +47,7 @@
   }
 
   main {
-    height: 2100px;
+    height: 2000px;
 
   }
 
@@ -90,7 +90,7 @@
 
 @media (min-width: 1200px) {
   main {
-    height: 1650px;
+    height: 1500px;
 
   }
 

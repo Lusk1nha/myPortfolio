@@ -1,5 +1,6 @@
 # portfolio
-This is my portfolio
+
+### Working in progress (That's not the final version)
 
 # Technologies
 In this project I used HTML5, CSS3 and JavaScript
